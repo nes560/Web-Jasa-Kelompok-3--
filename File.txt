@@ -1,0 +1,31 @@
+=================================================
+TUGAS UAS PEMROGRAMAN WEB - KELOMPOK 02
+WEBSITE PEMESANAN JASA LAUNDRY
+=================================================
+
+1. LINK DEMO ONLINE
+   Silakan akses website yang sudah di-hosting di sini:
+   https://cling.infinityfreeapp.com/
+
+2. AKUN ADMIN
+   Anda dapat login menggunakan akun berikut:
+   - Username : masukbayar
+   - Password : cobatanya
+
+3. LINK VIDIO PERSENTASI
+   Silakan akses Vidio presentasi kami dari kelompok 04 di sini:
+   https://youtu.be/EzK-BckSnyk
+
+4. LINK GITHUB / DOKUMEN WEBSITE
+   Silakan akses Dokumen Website kami yang lengkap di sini:
+   https://github.com/nes560/Web-Jasa-Kelompok-3--.git
+
+5. LINK GOGLE DRIVE 
+   Silakan akses laporan praktek kami di sini:
+   https://drive.google.com/drive/folders/15mStj91xUND9P7v6bLpDVjx6C_w7cmsn?usp=sharing
+
+. CATATAN
+   - Database sudah di-import ke hosting InfinityFree.
+   - Jika website lambat (timeout), mohon direfresh karena menggunakan hosting gratis.
+
+Terima kasih.
