@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - Cling Laundry</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <div class="logo">
+            <h2>Cling<span>.</span></h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.php">Beranda</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="Galeri Hasil Laundry.html">Galeri</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="TentangKami.html">Tentang Kami</a></li>
+                <li><a href="pemesanan.html">Pesan</a></li>
+                <li><a href="Notifikasi.php">Notifikasi</a></li> 
+                <li><a href="LokasiSaya.html">Lokasi</a></li>
+                <li><a href="KontakKami.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <main>
+        <div class="form-page-container">
+            <section>
+                <div style="text-align: center;">
+                    <h2>Formulir Pemesanan Laundry</h2>
+                    <p style="color: #666;">Silakan isi formulir di bawah ini untuk melakukan pemesanan. Kami akan segera menghubungi Anda untuk konfirmasi.</p>
+                </div>
+
+                <form action="proses_pemesanan.php" method="post">
+                    
+                    <fieldset>
+                        <legend>Data Pemesan & Penjemputan</legend>
+
+                        <div>
+                            <label for="nama">Nama Lengkap:</label>
+                            <input type="text" id="nama" name="nama_pelanggan" required placeholder="Contoh: Bintang Ramadhan">
+                        </div>
+
+                        <div>
+                            <label for="telepon">Nomor Telepon (WhatsApp):</label>
+                            <input type="tel" id="telepon" name="nomor_telepon" required placeholder="Contoh: 085xxxxxxxxx">
+                        </div>
+
+                        <div>
+                            <label for="alamat">Alamat Lengkap (Untuk Penjemputan):</label>
+                            <textarea id="alamat" name="alamat" rows="4" required placeholder="Jalan, Nomor Rumah, RT/RW, Kelurahan/Desa"></textarea>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Detail Pesanan Laundry</legend>
+
+                        <div>
+                            <label for="layanan">Pilih Layanan:</label>
+                            <select id="layanan" name="jenis_layanan" required>
+                                <option value="">-- Pilih Salah Satu --</option>
+                                <optgroup label="Paket Reguler (2-3 Hari)">
+                                    <option value="reguler_lipat">Cuci Kering Lipat (Rp 7.000/kg)</option>
+                                    <option value="reguler_setrika">Cuci Kering Setrika (Rp 9.000/kg)</option>
+                                    <option value="reguler_setrika_saja">Setrika Saja (Rp 6.000/kg)</option>
+                                </optgroup>
+                                <optgroup label="Paket Ekspres (1 Hari Jadi)">
+                                    <option value="ekspres_lipat">Cuci Kering Lipat Ekspres (Rp 12.000/kg)</option>
+                                    <option value="ekspres_setrika">Cuci Kering Setrika Ekspres (Rp 15.000/kg)</option>
+                                </optgroup>
+                                <optgroup label="Layanan Satuan">
+                                    <option value="satuan_bedcover">Bed Cover (Rp 25.000/pcs)</option>
+                                    <option value="satuan_selimut">Selimut (Rp 20.000/pcs)</option>
+                                    <option value="satuan_boneka">Boneka (Rp 30.000/pcs)</option>
+                                    <option value="satuan_jas">Jas / Blazer (Rp 35.000/pcs)</option>
+                                </optgroup>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="jumlah">Perkiraan Berat (kg) atau Jumlah (pcs):</label>
+                            <input type="number" id="jumlah" name="jumlah" min="1" placeholder="Misal: 5 (kg) atau 2 (pcs)">
+                        </div>
+
+                        <div>
+                            <label for="catatan">Catatan Tambahan (Opsional):</label>
+                            <textarea id="catatan" name="catatan" rows="4" placeholder="Misal: Ada noda kopi di kemeja putih, jangan gunakan pelembut..."></textarea>
+                        </div>
+                    </fieldset>
+
+                    <div class="button-group">
+                        <button type="submit">Kirim Pesanan</button>
+                        <button type="reset">Reset Form</button>
+                    </div>
+
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p>&copy; 2025 Cling Laundry. Dibuat oleh Kelompok Genap.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
